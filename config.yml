@@ -13,8 +13,8 @@ root_layer_prefix : sprite_
 # layer name of hit area
 hit_layer_prefix : hit_
 
-# export filetype (accepts "png" or "jpg")
-export_format : png
+# export filetype (accepts "png24", "png8", or "jpg")
+export_format : png24
 
 # output file name
 output_filename : sprites
