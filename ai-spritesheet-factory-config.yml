@@ -1,0 +1,27 @@
+# Maximum width of the sprite sheet
+max_width : 400
+
+# Horizontal gap between sprites
+x_gap : 24
+
+# Vertical gap between sprites
+y_gap : 24
+
+# root layer name to use as sprite area
+root_layer_prefix : sprite_
+
+# layer name of hit area
+hit_layer_prefix : hit_
+
+# export filetype (accepts "png24", "png8", or "jpg")
+export_format : png24
+
+# output file name
+output_filename : sprites
+
+# output format. This is a single entry in the output file script. Script will search for prefixes (from above) and inject full layer name and associated value
+# prefixes here MUST match above sprite and hit area layer prefixes!
+output_format : sprite_:{sprite__x:sprite_x_value,sprite__y:sprite_y_value,sprite__width:sprite_width_value,sprite__height:sprite_height_value,sprite__hit_x:sprite_hit_x_value,sprite__hit_y:sprite_hit_y_value,sprite__hit_width:sprite_hit_width_value,sprite__hit_height:sprite_hit_height_value}
+
+# type of output data (accepts "json", "xml", "array")
+output_type : json
