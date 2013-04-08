@@ -15,6 +15,12 @@ Spritesheet generator for Adobe Illustrator (AI). Spritesheets are used on webpa
 * ai-spritesheet-factory-demo.ai - AI demonstration file
 * AI-SpriteSheet-Factory.jsx - the script for installation in AI's Scripts menu
 
+## Installation
+======================
+
+To include in Adobe Illustrator's Scripts menu (File > Scripts), save the script in the Scripts folder, located in the 
+/Illustrator CS6/Presets folder in your Illustrator CS6 installation directory. The script’s will appear as "AI-SpriteSheet-Factory" in the Scripts menu. You will need to restart Illustrator for the script to appear in the menu.
+
 ## Instructions
 ======================
 
@@ -26,12 +32,12 @@ This Adobe Illustrator Script will export spritesheets from properly formatted A
 * Create a rectangular path on each sprite layer with the "area" prefix layer name from the configuration file.
 * Optionally, create a rectangular path on each sprite layer with the "hit" prefix layer name to create a hit area (for JavaScript purposes).
 * Spritesheet graphics will ordered in the order they appear in the Layer panel.
-
-## Installation
-======================
-
-To include in Adobe Illustrator's Scripts menu (File > Scripts), save the script in the Scripts folder, located in the 
-/Illustrator CS6/Presets folder in your Illustrator CS6 installation directory. The script’s will appear as "AI-SpriteSheet-Factory" in the Scripts menu. You will need to restart Illustrator for the script to appear in the menu.
+* Run the script from File > Scripts > AI-SpriteSheet-Factory menu.
+* Script will generate configuration file with your project if it is missing and will create a "build" directory that contains your spritesheet and associated code. The code will be:
+	* An image file - the spritesheet.
+	* A CSS file - a style rule using your spritesheet.
+	* An HTML file - to test your spritesheet in a browser.
+	* A parameters file - contains the coordinates of your sprite boundary areas and hit areas on the spritesheet.
 
 ## Copyright and License
 ======================
