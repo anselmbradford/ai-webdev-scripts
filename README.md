@@ -37,7 +37,7 @@ This Adobe Illustrator Script will export spritesheets from properly formatted A
 	* __An image file__ - the spritesheet.
 	* __A CSS file__ - a style rule using your spritesheet.
 	* __An HTML file__ - to test your spritesheet in a browser.
-	* __A parameters file__ - contains the coordinates of your sprite boundary areas and hit areas on the spritesheet. This may be used in JavaScript or CSS for changing the sprite shown on a webpage.
+	* __A parameters file__ - contains the coordinates of your sprite boundary areas and hit areas on the spritesheet. These values may be used in JavaScript or CSS for changing the sprite shown on a webpage.
 
 ## Copyright and License
 ======================
