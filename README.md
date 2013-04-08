@@ -1,7 +1,7 @@
 #AI-Spritesheet-Factory
 ======================
 
-Spritesheet generator for Adobe Illustrator (AI). Spritesheets are single images that are used on webpages to combine multiple images into one file.
+Spritesheet generator for Adobe Illustrator (AI). Spritesheets are used on webpages to combine multiple images into one file. Each image is displayed separately by cropping the image on the spritesheet.
 
 ## Project Contents
 ======================
