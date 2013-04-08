@@ -28,7 +28,7 @@ This Adobe Illustrator Script will export spritesheets from properly formatted A
 To include in Adobe Illustrator's Scripts menu (File > Scripts), save the script in the Scripts folder, located in the 
 /Illustrator CS6/Presets folder in your Illustrator CS6 installation directory. The script’s will appear as "AI-SpriteSheet-Factory" in the Scripts menu. You will need to restart Illustrator for the script to appear in the menu.
 
-## Copyright and license
+## Copyright and License
 ======================
 
 Copyright 2013 Anselm Bradford.
