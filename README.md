@@ -3,7 +3,10 @@
 
 Spritesheet generator for Adobe Illustrator (AI). Spritesheets are used on webpages to combine multiple images into one file. Each image is displayed separately by cropping the image on the spritesheet.
 
-<iframe src="http://player.vimeo.com/video/63556797" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/63556797">AI-Spritesheet-Factory-Demo</a> from <a href="http://vimeo.com/user7566655">Anselm Bradford</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+## Demo
+======================
+
+<iframe src="http://player.vimeo.com/video/63556797" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/63556797">View AI-Spritesheet-Factory Demo</a> on Vimeo.</p>
 
 ## Project Contents
 ======================
