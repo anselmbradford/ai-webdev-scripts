@@ -10,6 +10,9 @@ y_gap : 24
 # root layer name to use as sprite area
 root_layer_prefix : sprite_
 
+# layer name of layout area
+area_layer_prefix : area_
+
 # layer name of hit area
 hit_layer_prefix : hit_
 
