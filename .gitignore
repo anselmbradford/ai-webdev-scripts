@@ -1,2 +1,10 @@
 
 .DS_Store
+
+build/sprites.css
+
+build/sprites.json
+
+build/sprites.html
+
+build/sprites.png
