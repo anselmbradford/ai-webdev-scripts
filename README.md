@@ -11,9 +11,9 @@ Spritesheet generator for Adobe Illustrator (AI). Spritesheets are used on webpa
 ## Project Contents
 ======================
 
-* ai-spritesheet-factory-config.yml - configuration file used by the script, this should reside in the same directory as your AI project file (it will be generated if absent).
-* ai-spritesheet-factory-demo.ai - AI demonstration file
-* AI-SpriteSheet-Factory.jsx - the script for installation in AI's Scripts menu
+* __ai-spritesheet-factory-config.yml__ - configuration file used by the script, this should reside in the same directory as your AI project file (it will be generated if absent).
+* __ai-spritesheet-factory-demo.ai__ - AI demonstration file
+* __AI-SpriteSheet-Factory.jsx__ - the script for installation in AI's Scripts menu
 
 ## Installation
 ======================
@@ -26,18 +26,18 @@ To include in Adobe Illustrator's Scripts menu (File > Scripts), save the script
 
 This Adobe Illustrator Script will export spritesheets from properly formatted Adobe Illustrator files. 
 
-* Create a new Adobe Illustrator file. 
-* Create a layer for each sprite. 
-* Give the sprite layers a name prefix as per the settings in the configuration file (one will be generated with default values if it's not found on first run). All other named layers will be ignored.
-* Create a rectangular path on each sprite layer with the "area" prefix layer name from the configuration file.
-* Optionally, create a rectangular path on each sprite layer with the "hit" prefix layer name to create a hit area (for JavaScript purposes).
-* Spritesheet graphics will ordered in the order they appear in the Layer panel.
-* Run the script from File > Scripts > AI-SpriteSheet-Factory menu.
-* Script will generate configuration file with your project if it is missing and will create a "build" directory that contains your spritesheet and associated code. The code will be:
-	* An image file - the spritesheet.
-	* A CSS file - a style rule using your spritesheet.
-	* An HTML file - to test your spritesheet in a browser.
-	* A parameters file - contains the coordinates of your sprite boundary areas and hit areas on the spritesheet.
+1. Create a new Adobe Illustrator file. 
+2. Create a layer for each sprite. 
+3. Give the sprite layers a name prefix as per the settings in the configuration file (one will be generated with default values if it's not found on first run). All other named layers will be ignored.
+4. Create a rectangular path on each sprite layer with the "area" prefix layer name from the configuration file.
+5. Optionally, create a rectangular path on each sprite layer with the "hit" prefix layer name to create a hit area (for JavaScript purposes).
+6. Spritesheet graphics will ordered in the order they appear in the Layer panel.
+7. Run the script from File > Scripts > AI-SpriteSheet-Factory menu.
+8. The script will generate configuration file with your project if it is missing and will create a "build" directory that contains your spritesheet and associated code. The output in this folder will be:
+	* __An image file__ - the spritesheet.
+	* __A CSS file__ - a style rule using your spritesheet.
+	* __An HTML file__ - to test your spritesheet in a browser.
+	* __A parameters file__ - contains the coordinates of your sprite boundary areas and hit areas on the spritesheet.
 
 ## Copyright and License
 ======================
