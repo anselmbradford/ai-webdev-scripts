@@ -1,4 +1,4 @@
-ai-spritesheet-factory
+AI-Spritesheet-Factory
 ======================
 
 Spritesheet generator for Adobe Illustrator
@@ -6,13 +6,8 @@ Spritesheet generator for Adobe Illustrator
 Installation
 ======================
 
-To include a script in the Scripts menu (File > Scripts), save the script in the Scripts folder, located in the 
-/Illustrator CS6/Presets folder in your Illustrator CS6 installation directory. The script’s filename, 
-minus the file extension, appears in the Scripts menu.
-
-Scripts that you add to the Scripts folder while Illustrator is running do not appear in the Scripts menu until 
-the next time you launch Illustrator
-
+To include Adobe Illustrator's Scripts menu (File > Scripts), save the script in the Scripts folder, located in the 
+/Illustrator CS6/Presets folder in your Illustrator CS6 installation directory. The script’s will appear as "AI-SpriteSheet-Factory" in the Scripts menu. You will need to restart Illustrator for the script to appear in the menu.
 
 Copyright and license
 ======================
