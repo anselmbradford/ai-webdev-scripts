@@ -6,7 +6,7 @@ Scripts for web developers using Adobe Illustrator (AI).
 ## Project Contents
 ======================
 
-* AI-Spritesheet-Factory - Generate spritesheets from Illustrator graphics.
+* AI-Spritesheet-Factory - Generate spritesheets from Illustrator graphics (<a href="http://vimeo.com/63556797">Demo</a>).
 * AI-Colorscheme-CSS-Factory - Generate SCSS CSS variables from an Illustrator swatch group.
 
 ## Copyright and License
