@@ -1,1 +1,1 @@
-# Default color scheme group namecolorscheme_name : app_scheme# output file nameoutput_filename : colorscheme
+# Default color scheme group namecolorscheme_name : app_scheme# output file nameoutput_filename : colorscheme# export filetype (accepts "scss", "css")export_format : scss
